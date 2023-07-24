@@ -1,0 +1,168 @@
+/* Estilos para o cabeçalho */
+header {
+  /* background-color: #111; */
+  background-color: #53212B;
+  border: 5px outset rgb(0, 0, 0);
+  background-color: #53212B;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: Tungsten-Bold.tff, sans-serif;
+}
+
+@font-face {
+  font-family: 'Tungsten-Bold.tff';
+  src: url(fonts/Tungsten-Bold.tff);
+}
+
+@font-face {
+  font-family: 'FontFont_FF.Mark.Pro.Bold';
+  src: url(fonts/FontFont_FF.Mark.Pro.Bold.tff);
+}
+
+#logoriot {
+  display: inline-block;
+  vertical-align: middle;
+  fill: #fff;
+
+}
+
+#download {
+  border-radius: 10px;
+}
+
+#pdownload {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.containerA {
+  margin-top: 20px;
+  border: 5px outset rgb(0, 0, 0);
+  background-color: #53212B;
+  text-align: center;
+  padding: 20px;
+}
+
+.containerB {
+  margin-top: 20px;
+  border: 5px outset rgb(0, 0, 0);
+  background-color: #53212B;
+  text-align: center;
+  padding: 20px;
+}
+
+.containerC {
+  margin-top: 20px;
+  border: 5px outset rgb(0, 0, 0);
+  background-color: #53212B;
+  text-align: center;
+  padding: 20px;
+}
+
+.containerD {
+  margin-top: 20px;
+  border: 5px outset rgb(0, 0, 0);
+  background-color: #53212B;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#downloadh2 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+#logotexto {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  fill: #fff;
+}
+
+.div-logovalorant {
+   margin-bottom: 10px;
+}
+
+p {
+  color: #fff;
+  font-family: "FontFont_FF.Mark.Pro.Bold", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: "Tungsten-Bold.tff", sans-serif;
+}
+
+
+body {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background: -webkit-gradient(
+    to right,
+    #fd0000,
+    #1a2980
+  );
+  background: linear-gradient(
+    to right,
+    #ff0000,
+    #caccd6
+  );
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: Tungsten-Bold,arial,georgia,sans-serif;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para as seções */
+section {
+  padding: 0px;
+
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #53212B;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+a {
+  font-family: Tungsten-Bold,arial,georgia,sans-serif;
+}
